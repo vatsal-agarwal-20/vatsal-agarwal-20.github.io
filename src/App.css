@@ -26,6 +26,6 @@
 }
 #tsparticles{
   position: inherit;
-  /* height: 600px; */
+  height: 100vh;
   z-index: 1;
 }
