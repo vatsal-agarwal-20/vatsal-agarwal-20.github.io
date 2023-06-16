@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/vatsal-agarwal-20.github.io/static/css/main.9a9df9c0.css",
+    "main.js": "/vatsal-agarwal-20.github.io/static/js/main.1711d662.js",
+    "static/media/working-fast.gif": "/vatsal-agarwal-20.github.io/static/media/working-fast.4471aef0fe05b18bc777.gif",
+    "static/media/waving-hand.gif": "/vatsal-agarwal-20.github.io/static/media/waving-hand.e8b7aa58b12e98ad37d8.gif",
+    "static/media/3d-modified.png": "/vatsal-agarwal-20.github.io/static/media/3d-modified.2ad1db7239c71ac15c50.png",
+    "static/media/portfolio-pfp.jpg": "/vatsal-agarwal-20.github.io/static/media/portfolio-pfp.a02a6379ba8943d35056.jpg",
+    "index.html": "/vatsal-agarwal-20.github.io/index.html",
+    "main.9a9df9c0.css.map": "/vatsal-agarwal-20.github.io/static/css/main.9a9df9c0.css.map",
+    "main.1711d662.js.map": "/vatsal-agarwal-20.github.io/static/js/main.1711d662.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a9df9c0.css",
+    "static/js/main.1711d662.js"
+  ]
+}
