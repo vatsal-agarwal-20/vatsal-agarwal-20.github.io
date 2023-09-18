@@ -17,7 +17,7 @@
   top: 0;
   left: 0;
   /* opacity: 0.2; */
-  z-index: 1;
+  /* z-index: -1; */
 }
 .content{
   z-index: 10;
@@ -27,5 +27,5 @@
 #tsparticles{
   position: inherit;
   height: 100vh;
-  z-index: 1;
+  /* z-index: -1; */
 }
