@@ -1,7 +1,42 @@
-.nav-items{
-    padding: 5px;
-    margin: 10px;
-}
 .logo{
-    margin-left: 50px;
+    margin-left: 25px;
 }
+#nav-links {
+    background-image: linear-gradient(
+      to right,
+      #03f2ff,
+      #d1e824 50%,
+      #fff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    margin: 0 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #nav-links:before{
+    content: '';
+    background: #efeb9fee;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #nav-links:hover {
+   background-position: 0;
+  }
+  
+  #nav-links:hover::before{
+    width: 100%;
+  }

@@ -1,19 +1,20 @@
 .home-about-social-links{
     display: flex;
-    list-style-type: none;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 /* .home-social-icons{
     text-decoration: none;
 } */
 .social-icons{
     border-radius: 50%;
-    
+    overflow: hidden;
 }
 .social-icons:hover{
     border: 2.5px solid yellow;
+    box-shadow: 0 0 15px #fdf901;
     transition: 0.1s ease-in-out;
+    margin: -2.5px;
 }
 .site-btn {
     background-color: rgb(103, 103, 111);
@@ -35,7 +36,7 @@
   .site-btn:hover {
     background-color: rgba(21, 21, 32, 0.537);
     text-decoration: underline;
-    border: 1px solid yellow;
+    border: 2px solid yellow;
     transition: 0.1s ease-in-out;
   }
   .site-btn img {

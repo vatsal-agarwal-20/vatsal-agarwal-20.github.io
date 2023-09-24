@@ -5,6 +5,9 @@ import Particle from './components/Particle';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import Skills from './components/Skills/Skills';
+import Projects from './components/Project/Projects';
+import About from './components/Hero/About';
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   useEffect(() => {
@@ -18,7 +21,11 @@ function App() {
     </div>
     <div className='content'>
     <Hero/>
+    <About/>
     <Skills/>
+    <Projects/>
+    <ScrollToTop smooth color="#6f00ff" />
+    <br/>
     </div>
     </div>
   );

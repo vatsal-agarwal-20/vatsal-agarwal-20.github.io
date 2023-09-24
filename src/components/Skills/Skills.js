@@ -6,7 +6,7 @@ import Leetcode from "./Leetcode";
 
 const Skills = () => {
   return (
-    <Container fluid className="about-section" data-aos="fade-up"
+    <Container id="skills" fluid className="about-section" data-aos="fade-up"
     data-aos-easing="linear"
     data-aos-duration="500">
         <h1 className="project-heading">

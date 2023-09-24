@@ -1,9 +1,9 @@
 body{
   font-family: 'Roboto Mono', monospace;
 }
-#hero{
+/* #hero{
   width: 100%;
-}
+} */
 .home-content{
   display: flex;
   width: 100%;

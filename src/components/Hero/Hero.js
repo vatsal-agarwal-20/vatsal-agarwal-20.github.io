@@ -2,7 +2,6 @@ import React from 'react';
 import './Hero.css'
 import myImg from '../img/portfolio-pfp.jpg'
 import wave from '../assets/waving-hand.gif'
-import About from './About';
 import NavBar from '../Navbar/Navbar';
 const Hero = () => {
   
@@ -35,7 +34,7 @@ const Hero = () => {
                <img className='profilePic' src={myImg} alt='profile'/>
             </div>
         </div>
-        <About/>
+        {/* <About/> */}
       </div>
   );
 };
